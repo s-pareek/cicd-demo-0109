@@ -31,13 +31,14 @@
 					<cloudHubDeployment>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<muleVersion>4.3.0</muleVersion>
-						<username>bmsAssignment</username>
-						<password>hM$ZW!4Xqn9ebmP</password>
+						<username>{anypoint.user}</username>
+						<password>{anypoint.password}</password>
 						<applicationName>cicd-demo010921</applicationName>
-						<environment>dev</environment>
+						<environment>Sandbox</environment>
 						<region>us-east-2</region>
 						<workers>1</workers>
 						<workerType>MICRO</workerType>
+						<objectStoreV2>true</objectStoreV2>
 						<properties>
 							<http.port>8081</http.port>
 						</properties>
